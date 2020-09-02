@@ -1,0 +1,12 @@
+[INFO  - 2020-07-25T02:20:16.322Z] GhostDriver - Main - running on port 64195
+[INFO  - 2020-07-25T02:20:18.363Z] Session [621be470-ce1d-11ea-9f28-ab5eda760f92] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-07-25T02:20:18.363Z] Session [621be470-ce1d-11ea-9f28-ab5eda760f92] - page.customHeaders:  - {}
+[INFO  - 2020-07-25T02:20:18.363Z] Session [621be470-ce1d-11ea-9f28-ab5eda760f92] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-07-25T02:20:18.363Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 621be470-ce1d-11ea-9f28-ab5eda760f92
+[ERROR - 2020-07-25T02:20:23.487Z] Session [621be470-ce1d-11ea-9f28-ab5eda760f92] - page.onError - msg: ReferenceError: Can't find variable: toastr
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-07-25T02:20:23.487Z] Session [621be470-ce1d-11ea-9f28-ab5eda760f92] - page.onError - stack:
+  global code (https://www.manhuabei.com/js/config.js:20)
+
+  phantomjs://platform/console++.js:263 in error
